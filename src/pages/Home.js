@@ -1,9 +1,16 @@
+import manasvi from "../assets/manasvi_profile.jpg";
+
 function Home() {
     return (
-      <div>
-        <h1>Welcome to My PhD Portfolio</h1>
-        <p>I am [Your Name], a PhD student in [Your Research Area].</p>
-      </div>
+        <div className="home-container">
+            <div className="text-column">
+                <h1><span>Hello, my name is Manasvi</span></h1>
+                <p>I am [Your Name], a PhD student in [Your Research Area].</p>
+            </div>
+            <div className="image-column">
+                <img src={manasvi} alt="Manasvi Chaturvedi" />
+            </div>
+        </div>
     );
   }
   
