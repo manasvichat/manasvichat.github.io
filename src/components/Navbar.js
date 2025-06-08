@@ -10,7 +10,7 @@ function Navbar() {
         <nav className='nav'>
             <ul className='tabs'>
                 <li><Link to="/">Home</Link></li>
-                <li><Link to="/research">Research</Link></li>
+                <li><Link to="/research">Research & CV</Link></li>
             </ul>
         </nav>
     </header>
