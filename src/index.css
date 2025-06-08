@@ -115,3 +115,19 @@ body {
 .cv-page .home-container{
   flex-direction: column;
 }
+
+@media (max-width: 768px) {
+  .home-container {
+      flex-direction: column; /* Stack elements vertically on smaller screens */
+      align-items: center;
+  }
+
+  .description {
+    width: 100%;
+
+  }
+  .nav-description {
+    display: none;
+  }
+
+}

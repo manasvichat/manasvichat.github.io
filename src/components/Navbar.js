@@ -5,7 +5,7 @@ function Navbar() {
     <header className='header'>
         <div className='name'>
             <h1>Manasvi Chaturvedi</h1>
-            <p className='description'> Ph.D. candidate in Linguistics at Yale University </p>
+            <p className='nav-description'> Ph.D. candidate in Linguistics at Yale University </p>
         </div>
         <nav className='nav'>
             <ul className='tabs'>
