@@ -11,7 +11,6 @@ function Navbar() {
             <ul className='tabs'>
                 <li><Link to="/">Home</Link></li>
                 <li><Link to="/research">Research</Link></li>
-                <li><Link to="/CV">CV</Link></li>
             </ul>
         </nav>
     </header>
