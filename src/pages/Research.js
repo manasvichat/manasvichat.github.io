@@ -1,5 +1,6 @@
 import chaturvedi_shaw_2025 from "../assets/chaturvedi_etal_2025.pdf";
 import chaturvedi_shaw_cogsci_2026 from "../assets/Chaturvedi_Shaw_2026_CogSci.pdf";
+import subtypes from "../assets/subtypes.pdf";
 import CV from "../assets/CV_0715.pdf";
 
 function Research() {
@@ -32,6 +33,17 @@ function Research() {
                                 style={{ color: 'palevioletred', textDecoration: 'underline', wordBreak: 'break-word' }}
                             >
                                 Chaturvedi, M., & Shaw, J. A. (2026). A neural process model of compensation and adaptation as independent mechanisms in speech motor control. Submitted to: <em>Proceedings of the Annual Meeting of the Cognitive Science Society</em>.
+                            </a>
+                        </div>
+                        <div style={{ marginBottom: '8px', lineHeight: 1.6 }}>
+                            <span style={{ color: 'violetred', fontWeight: 'bold' }}>3.</span>{' '}
+                            <a
+                                href={subtypes}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                style={{ color: 'palevioletred', textDecoration: 'underline', wordBreak: 'break-word' }}
+                            >
+                                Chaturvedi, M. (2026). Subtype readings in Hindi numerical reduplication. Proceedings of GLOW, 47, 1-14.
                             </a>
                         </div>
                     </div>
