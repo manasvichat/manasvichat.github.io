@@ -1,22 +1,43 @@
-import manasvi_cv from "../assets/CV_0715.pdf";
+import chaturvedi_shaw_2025 from "../assets/chaturvedi_etal_2025.pdf";
+import chaturvedi_shaw_cogsci_2026 from "../assets/Chaturvedi_Shaw_2026_CogSci.pdf";
+import CV from "../assets/CV_0715.pdf";
 
 function Research() {
     return (
         <div className="research-page">
             <div className="home-container">
                 <h1>Recent Research & CV</h1>
-                <div className="description" style={{ padding: '0 200px' }}>
+                <div className="description" style={{ padding: '0 24px', maxWidth: '900px', margin: '0 auto' }}>
                     <p style={{ textAlign: 'justify', fontWeight: 'lighter'  }} >
-                        <strong style={{ color: 'palevioletred' }}>My research</strong> investigates the nature of language representations in the human mind, as revealed through speech.
-                        I am interested in questions related to <strong style={{ color: 'palevioletred' }}>the nature of language representations in the mind</strong>:
-                        What kinds of processes take place during speech planning, and what is their influence on the final production?
-                        How do internal language representations change as a result of speech input from the environment (both of one's own speech and that of others')?
-                        I am ultimately interested in what these questions can tell us about <strong style={{ color: 'palevioletred' }}>the cognitive and neural mechanisms underlying human language use</strong>, and how they may recruit domain-general processes.
-                        Other than speech, I also enjoy thinking about questions related to <strong style={{ color: 'palevioletred' }}>plurality and distributivity in meaning</strong>.
+                        Some of my <strong style={{ color: 'palevioletred' }}>recent work</strong>:
                     </p>
+                    <div style={{ marginTop: '12px' }}>
+                        <div style={{ marginBottom: '8px', lineHeight: 1.6 }}>
+                            <span style={{ color: 'palevioletred', fontWeight: 'bold' }}>1.</span>{' '}
+                            <a
+                                href={chaturvedi_shaw_2025}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                style={{ color: 'palevioletred', textDecoration: 'underline', wordBreak: 'break-word' }}
+                            >
+                                Chaturvedi, M., & Shaw, J. A. (2025). Phonetic trace effects in experimentally-induced vowel errors. <em>Cognitive Neuropsychology</em>, 42(3-4), 106-126.
+                            </a>
+                        </div>
+                        <div style={{ marginBottom: '8px', lineHeight: 1.6 }}>
+                            <span style={{ color: 'palevioletred', fontWeight: 'bold' }}>2.</span>{' '}
+                            <a
+                                href={chaturvedi_shaw_cogsci_2026}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                style={{ color: 'palevioletred', textDecoration: 'underline', wordBreak: 'break-word' }}
+                            >
+                                Chaturvedi, M., & Shaw, J. A. (2026). A neural process model of compensation and adaptation as independent mechanisms in speech motor control. Submitted to: <em>Proceedings of the Annual Meeting of the Cognitive Science Society</em>.
+                            </a>
+                        </div>
+                    </div>
                     <div className="pdf-container" style={{ marginTop: '20px' }}>
                     <iframe 
-                        src={manasvi_cv} 
+                        src={CV} 
                         width="100%" 
                         height="600px" 
                         style={{ border: 'none' }}
