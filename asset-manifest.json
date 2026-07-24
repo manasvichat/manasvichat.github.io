@@ -1,20 +1,21 @@
 {
   "files": {
     "main.css": "/static/css/main.042ac84b.css",
-    "main.js": "/static/js/main.6c0c71d8.js",
+    "main.js": "/static/js/main.cfe5edac.js",
     "static/js/453.3301030a.chunk.js": "/static/js/453.3301030a.chunk.js",
     "static/media/manasvi_profile.jpg": "/static/media/manasvi_profile.a110ad15ab4222660f4c.jpg",
     "static/media/momo.jpg": "/static/media/momo.2507ab8f5b5363b02291.jpg",
     "static/media/chaturvedi_etal_2025.pdf": "/static/media/chaturvedi_etal_2025.86fbe37592b1d80d2c53.pdf",
     "static/media/Chaturvedi_Shaw_2026_CogSci.pdf": "/static/media/Chaturvedi_Shaw_2026_CogSci.ccea460f4cdf1c99ec48.pdf",
+    "static/media/subtypes.pdf": "/static/media/subtypes.daa8db353d19d2feae62.pdf",
     "static/media/CV_0715.pdf": "/static/media/CV_0715.a26ca17527b764a041f2.pdf",
     "index.html": "/index.html",
     "main.042ac84b.css.map": "/static/css/main.042ac84b.css.map",
-    "main.6c0c71d8.js.map": "/static/js/main.6c0c71d8.js.map",
+    "main.cfe5edac.js.map": "/static/js/main.cfe5edac.js.map",
     "453.3301030a.chunk.js.map": "/static/js/453.3301030a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.042ac84b.css",
-    "static/js/main.6c0c71d8.js"
+    "static/js/main.cfe5edac.js"
   ]
 }
