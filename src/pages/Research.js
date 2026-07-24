@@ -14,35 +14,35 @@ function Research() {
                     </p>
                     <div style={{ marginTop: '12px' }}>
                         <div style={{ marginBottom: '8px', lineHeight: 1.6 }}>
-                            <span style={{ color: 'palevioletred', fontWeight: 'bold' }}>1.</span>{' '}
                             <a
                                 href={chaturvedi_shaw_2025}
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 style={{ color: 'palevioletred', textDecoration: 'underline', wordBreak: 'break-word' }}
                             >
+                                <span style={{ color: 'palevioletred', fontWeight: 'bold' }}>1.</span>{' '}
                                 Chaturvedi, M., & Shaw, J. A. (2025). Phonetic trace effects in experimentally-induced vowel errors. <em>Cognitive Neuropsychology</em>, 42(3-4), 106-126.
                             </a>
                         </div>
                         <div style={{ marginBottom: '8px', lineHeight: 1.6 }}>
-                            <span style={{ color: 'palevioletred', fontWeight: 'bold' }}>2.</span>{' '}
                             <a
                                 href={chaturvedi_shaw_cogsci_2026}
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 style={{ color: 'palevioletred', textDecoration: 'underline', wordBreak: 'break-word' }}
                             >
+                                <span style={{ color: 'palevioletred', fontWeight: 'bold' }}>2.</span>{' '}
                                 Chaturvedi, M., & Shaw, J. A. (2026). A neural process model of compensation and adaptation as independent mechanisms in speech motor control. Submitted to: <em>Proceedings of the Annual Meeting of the Cognitive Science Society</em>.
                             </a>
                         </div>
                         <div style={{ marginBottom: '8px', lineHeight: 1.6 }}>
-                            <span style={{ color: 'violetred', fontWeight: 'bold' }}>3.</span>{' '}
                             <a
                                 href={subtypes}
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 style={{ color: 'palevioletred', textDecoration: 'underline', wordBreak: 'break-word' }}
                             >
+                                <span style={{ color: 'palevioletred', fontWeight: 'bold' }}>3.</span>{' '}
                                 Chaturvedi, M. (2026). Subtype readings in Hindi numerical reduplication. Proceedings of GLOW, 47, 1-14.
                             </a>
                         </div>
